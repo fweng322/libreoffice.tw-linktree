@@ -9,7 +9,8 @@
 
   /* You can change the background color by typing the color code. (If you do not enter a background-image image, the background-color will be active.) */
   --background_color: #000;
-  --background_image: url("../img/wallpaper.png");
+  /*--background_image: url("../img/wallpaper.png"); */
+  --background_image: linear-gradient(cyan, blue);
 
   /* You can change the frame thickness and color of the picture by typing the number of pixels and the color code. */
   --image_border_color: #1f232e;
@@ -20,8 +21,8 @@
   --image_height: 140px;
 
   /* You can change the colors of the title and description section by typing the color codes. */
-  --title_color: #fff;
-  --description_color: #fff;
+  --title_color: #000000;
+  --description_color: #000000;
 
   /* You can change the colors of social media icons by changing the color code. */
   --svg_color: #fff;
@@ -93,8 +94,9 @@ body {
 .header_img img {
   height: var(--image_height);
   width: var(--image_width);
-  border: var(--image_border_px) solid var(--image_border_color);
-  border-radius: 50%;
+/*  border: var(--image_border_px) solid var(--image_border_color);
+  border-radius: 50%; */
+  border: none;
   margin-bottom: 0.5em;
 }
 
