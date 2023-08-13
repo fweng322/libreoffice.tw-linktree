@@ -137,7 +137,9 @@ body {
 }
 
 #header_nav_menu_item_2,
-#header_nav_menu_item_3 {
+#header_nav_menu_item_3,
+#header_nav_menu_item_4,
+#header_nav_menu_item_5, {
   color: var(--menu_text_color);
 }
 
@@ -171,7 +173,7 @@ main {
   margin-bottom: auto;
 }
 
-#main_section_container_2, #main_section_container_3 {
+#main_section_container_2, #main_section_container_3, #main_section_container_4, #main_section_container_5 {
  display: none;
 }
 
