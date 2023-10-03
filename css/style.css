@@ -270,5 +270,9 @@ main {
     width: 92vw;
     text-align: center;
   }
+
+  iframe {
+      width: 100%;
+  }
   
 }
